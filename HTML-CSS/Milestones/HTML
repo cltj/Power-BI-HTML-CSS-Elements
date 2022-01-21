@@ -1,0 +1,54 @@
+HTML = 
+ 
+VAR Complete = "'stepper-item completed'"
+VAR Active = "'stepper-item active'"
+VAR SItem = "'stepper-item'"
+VAR GML = Parameter[Parameter Value]  //Replace for measure
+RETURN  
+                
+
+      [CSS]    &                // Stylesheet
+
+
+"<html lang='en'>
+  <body>
+
+    <div class= 'stepper-wrapper'>
+      <div class= "& 
+        IF(AND(GML>0,GML<100),Active,
+        IF(GML>=100,Complete,SItem))
+        & ">
+        <div class='step-counter'>100</div>
+        <div class='step-name'>Initial</div>
+      </div>
+      <div class= "& 
+        IF(AND(GML>100,GML<200),Active,
+        IF(GML>=200,Complete,SItem))
+        & ">
+        <div class='step-counter'>200</div>
+        <div class='step-name'>Repeatable</div>
+      </div>
+      <div class="& 
+        IF(AND(GML>200,GML<300),Active,
+        IF(GML>=300,Complete,SItem))
+        & ">
+        <div class='step-counter'>300</div>
+        <div class='step-name'>Defined</div>
+      </div>
+      <div class="& 
+        IF(AND(GML>300,GML<400),Active,
+        IF(GML>=400,Complete,SItem))
+        & ">
+        <div class='step-counter'>400</div>
+        <div class='step-name'>Capable</div>
+      </div>
+      <div class="& 
+        IF(AND(GML>400,GML<500),Active,
+        IF(GML>=500,Complete,SItem))
+        & ">
+        <div class='step-counter'>500</div>
+        <div class='step-name'>Efficient</div>
+      </div>
+    </div>
+  </body>
+</html>"
