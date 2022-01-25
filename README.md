@@ -11,7 +11,7 @@ For using HTML and CSS code in Power BI you need to use any of the available Pow
 |Visual Name|Certified|
 |-----------|-----------|
 |[**HTML Content**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200001930?tab=Overview)| |
-|[**HTML Text Styler**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200002071?tab=Overview)|![Certified](https://docs.microsoft.com/en-us/power-bi/developer/visuals/media/power-bi-custom-visuals-certified/certified-visual-yellow-small.png =50x50)|
+|[**HTML Text Styler**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200002071?tab=Overview)|<img src="https://docs.microsoft.com/en-us/power-bi/developer/visuals/media/power-bi-custom-visuals-certified/certified-visual-yellow-small.png" width="25" height="25">
 
 
 ## Contributing
