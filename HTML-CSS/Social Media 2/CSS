@@ -1,0 +1,191 @@
+1. <CSS> = 
+
+        VAR CSS = "
+            <style>
+                html {
+                box-sizing: border-box;
+                font-size: 100%;
+                }
+
+                body {
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                text-align: center;
+                font-family: ""Montserrat"", sans-serif;
+                max-width: 100%;
+                min-height: 100vh;
+                height: auto;
+                letter-spacing: 0.1em;
+                }
+
+                h1 {
+                color: #024873;
+                }
+
+                h2 {
+                color: #024873;
+                }
+
+                hr {
+                border-style: none;
+                border-top-style: dotted;
+                border-color: rgb(196, 196, 196);
+                border-width: 5px;
+                width: 100px;
+                }
+
+                .logo {
+                width: 152px;
+                }
+
+                .links {
+                display: block;
+                max-width: 550px;
+                margin: 0 auto 15px;
+                margin-bottom: 5px;
+                padding: 15px 20px;
+                font-size: 0.95rem;
+                line-height: 1.5;
+                text-decoration: none;
+                transition: all 0.2s ease-in-out;
+                color: black;
+                border-radius: 10px;
+                cursor: pointer;
+                }
+
+                .links .links:hover {
+                background-color: #fff;
+                animation: shake 0.5s;
+                animation-iteration-count: infinite;
+                }
+
+
+
+                .links .links_first {
+                border-bottom: 3px solid #80d6ff;
+                box-shadow: inset 0 -4px 0 #80d6ff;
+                border: 2px solid #80d6ff;
+                background-color: #80d6ff;
+                }
+
+                .links .links_second {
+                border-bottom: 3px solid #ffa093;
+                box-shadow: inset 0 -4px 0 #ffa093;
+                border: 2px solid #ffa093;
+                background-color: #ffa093;
+                }
+
+                .links .links_third {
+                border-bottom: 3px solid #bedde8;
+                box-shadow: inset 0 -4px 0 #bedde8;
+
+                border: 2px solid #bedde8;
+                background-color: #bedde8;
+                }
+
+                .links .links_fourth {
+                box-shadow: inset 0 -4px 0 #73e2a7;
+
+                border: 2px solid #73e2a7;
+                background-color: #73e2a7;
+                }
+
+                .links .links_fifth {
+                border-bottom: 3px solid #ffc15e;
+                box-shadow: inset 0 -4px 0 #ffc15e;
+                border: 2px solid #ffc15e;
+                background-color: #ffc15e;
+                }
+
+                .channels {
+                display: flex;
+                max-width: 400px;
+                margin: 0 auto;
+                }
+
+                .channels .channels_item {
+                flex: 5;
+                margin-right: 5px;
+                transition: transform 0.2s;
+                color: #024873;
+                }
+
+                .channels_item:hover {
+                transform: scale(1.25) rotate(1turn);
+                transition: transform 1.5s;
+                }
+
+                .wrapper {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 800px;
+                    height: 100px;
+                    background-image: linear-gradient(to bottom right, #81c2de, #4f92ac);
+                    transition: all 0.4s ease-out;
+                  }
+                  .wrapper__links {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 70%;
+                  }
+                  
+                  .social-link--linkedin {
+                    color: #2d76b0;
+                  }
+                  .social-link--github {
+                    color: #000;
+                  }
+                  .social-link--instagram {
+                    color: #9a2970;
+                  }
+                  .social-link--dribbble {
+                    color: #b53561;
+                  }
+                  .social-link .social-svg {
+                    width: 4.8rem;
+                    height: 4.8rem;
+                  }
+                  .social-link .social-svg .social-group__icon {
+                    fill: #191308;
+                    transition: all 0.2s;
+                  }
+                  .social-link .social-svg .social-group__inner-circle {
+                    fill: transparent;
+                    transition: all 0.2s;
+                  }
+                  .social-link .social-svg .social-group__outline {
+                    stroke: #191308;
+                    transform-origin: 50% 50%;
+                    transition: all 0.2s;
+                  }
+                  .social-link .social-svg:hover .social-group__icon, .social-link .social-svg:active .social-group__icon, .social-link .social-svg:focus .social-group__icon {
+                    fill: #fffbfa;
+                    transition: all 0.45s;
+                  }
+                  .social-link .social-svg:hover .social-group__inner-circle, .social-link .social-svg:active .social-group__inner-circle, .social-link .social-svg:focus .social-group__inner-circle {
+                    fill: currentColor;
+                    transition: all 0.45s;
+                  }
+                  .social-link .social-svg:hover .social-group__inner-circle--instagram, .social-link .social-svg:active .social-group__inner-circle--instagram, .social-link .social-svg:focus .social-group__inner-circle--instagram {
+                    fill: url(#simpleInsta) !important;
+                  }
+                  .social-link .social-svg:hover .social-group__outline, .social-link .social-svg:active .social-group__outline, .social-link .social-svg:focus .social-group__outline {
+                    stroke: currentColor;
+                    transform: scale(1.1);
+                    transition: all 0.45s;
+                  }
+
+
+            </style>"
+
+                
+    RETURN
+            CSS
+
