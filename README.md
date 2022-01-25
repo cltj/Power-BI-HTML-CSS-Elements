@@ -8,8 +8,8 @@ This is a open source repository to share different kind of HTML&CSS elements be
 
 For using HTML and CSS code in Power BI you need to use any of the available Power BI Custom Visuals.
 
-**[**HTML Content**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200001930?tab=Overview)**
-
+**[HTML Content](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200001930?tab=Overview)**
+**[HTML & CSS Viewer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/kteamsolutionsgmbh1585769979285.htmlcssjsviewer?tab=Overview)**
 
 
 ## Contributing
