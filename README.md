@@ -11,9 +11,9 @@ For using HTML and CSS code in Power BI you need to use any of the available Pow
 |Visual Name|Certified|Free|Tested|Known Issues|
 |-----------|-----------|-----------|-----------|-----------|
 |[**HTML Content**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200001930?tab=Overview)| |**✔**|**✔**|Can't print to PDF/PPT
-|[**HTML Text Styler**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200002071?tab=Overview)|**✔**| | |
+|[**HTML Text Styler**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200002071?tab=Overview)|**✔**| | | Can't access external resources
 |[**HTML & CSS Viewer**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/kteamsolutionsgmbh1585769979285.htmlcssjsviewer?tab=Overview)| | | | Can't print to PDF/PPT
-|[**Shielded HTML Viewer**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200002144?tab=Overview)|**✔**| | |
+|[**Shielded HTML Viewer**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200002144?tab=Overview)|**✔**| | | Can't access external resources
 |[**ParaHTMLViewer**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200002459?tab=Overview)| |**✔** | | Can't print to PDF/PPT
 
 
