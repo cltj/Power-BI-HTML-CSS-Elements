@@ -1,0 +1,39 @@
+1. <HTML> = 
+ 
+
+                
+
+    [1. <CSS>]                    // Stylesheet
+&   "<html lang='en'>
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+    <title>Thor Kinstad</title>
+    <link
+    rel='stylesheet'
+    href='https://fonts.googleapis.com/css?family=Montserrat:700&display=swap'
+    />
+    <link
+    rel='stylesheet'
+    href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'
+    />
+    <link rel='stylesheet' href='css/style.css' />
+    </head>
+
+    <body>
+        <div class='flip-card'>
+            <div class='flip-card-inner'>
+                <div class='flip-card-front'>
+                    <img src='https://docs.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg' alt='Avatar' style='width:300px;height:300px;'>
+                </div>
+                <div class='flip-card-back'>
+                    <h1>John Doe</h1>
+                    <p class='focus-text'>Data Analyst Associate</p>
+                    <p>Earned:</p> 
+                    <p>January 28, 2022</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>"
